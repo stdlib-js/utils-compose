@@ -153,6 +153,12 @@ var v = f( 5, 3 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/async/compose`][@stdlib/utils/async/compose]: function composition.
+
 </section>
 
 <!-- /.related -->
@@ -215,6 +221,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-compose/main/LICENSE
 
 [function-composition]: https://en.wikipedia.org/wiki/Function_composition_%28computer_science%29
+
+<!-- <related-links> -->
+
+[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose
+
+<!-- </related-links> -->
 
 </section>
 
