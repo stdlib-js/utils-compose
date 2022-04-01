@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/utils-compose",
+  "version": "0.0.0",
+  "description": "Function composition.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-compose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utils",
+    "util",
+    "compose",
+    "composition",
+    "function",
+    "fun",
+    "func",
+    "fcn",
+    "functional",
+    "transform"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
