@@ -34,38 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-compose
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-compose = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var compose = require( 'path/to/vendor/umd/utils-compose/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.compose;
-})();
-</script>
+var compose = require( '@stdlib/utils-compose' );
 ```
 
 #### compose( ...fcn )
@@ -132,13 +124,8 @@ var z = f( 4, 6 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var compose = require( '@stdlib/utils-compose' );
 
 function a( x, y ) {
     return x * y;
@@ -156,11 +143,6 @@ var f = compose( c, b, a );
 
 var v = f( 5, 3 );
 // returns 2
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -215,7 +197,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -262,7 +244,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose/tree/umd
+[@stdlib/utils/async/compose]: https://github.com/stdlib-js/utils-async-compose
 
 <!-- </related-links> -->
 
