@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@esm/index.mjs';
+import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@v0.2.1-esm/index.mjs';
 ```
 
 #### compose( ...fcn )
@@ -125,7 +125,7 @@ var z = f( 4, 6 );
 <body>
 <script type="module">
 
-import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@esm/index.mjs';
+import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@v0.2.1-esm/index.mjs';
 
 function a( x, y ) {
     return x * y;
