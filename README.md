@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-compose/tags). For example,
+
+```javascript
 import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@v0.2.2-deno/mod.js';
 ```
 
@@ -120,7 +125,7 @@ var z = f( 4, 6 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@v0.2.2-deno/mod.js';
+import compose from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-compose@deno/mod.js';
 
 function a( x, y ) {
     return x * y;
